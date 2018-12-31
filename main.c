@@ -3,7 +3,7 @@
 #include "1AHTB.h"
 
 int main(int argc, char** argv) {
-	int l = 6;
+	int l = 20;
 	CharOcc** list = malloc(l*sizeof(CharOcc*));
 	for(int i = 0; i < l; i++) {
 		list[i] = malloc(sizeof(CharOcc));
